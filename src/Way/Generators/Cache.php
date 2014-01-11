@@ -1,4 +1,4 @@
-<?php namespace Way\Generators;
+<?php namespace Buruframe\Generators;
 
 use Illuminate\Filesystem\Filesystem as File;
 

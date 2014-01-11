@@ -1,5 +1,5 @@
 {
-    "name": "way/generators",
+    "name": "buruframe/generators",
     "description": "",
     "authors": [
         {
@@ -20,10 +20,10 @@
     },
     "autoload": {
         "psr-0": {
-            "Way\\Generators": "src/"
+            "Buruframe\\Generators": "src/"
         },
         "classmap": [
-            "src/Way/Generators/Generators"
+            "src/Buruframe/Generators/Generators"
         ]
     },
      "extra": {

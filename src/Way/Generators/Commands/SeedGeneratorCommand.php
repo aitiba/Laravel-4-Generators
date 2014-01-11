@@ -1,6 +1,6 @@
-<?php namespace Way\Generators\Commands;
+<?php namespace Buruframe\Generators\Commands;
 
-use Way\Generators\Generators\SeedGenerator;
+use Buruframe\Generators\Generators\SeedGenerator;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
@@ -24,7 +24,7 @@ class SeedGeneratorCommand extends BaseGeneratorCommand {
     /**
      * Model generator instance.
      *
-     * @var Way\Generators\Generators\SeedGenerator
+     * @var Buruframe\Generators\Generators\SeedGenerator
      */
     protected $generator;
 

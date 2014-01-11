@@ -1,6 +1,6 @@
 <?php
 
-namespace Way\Generators\Generators;
+namespace Buruframe\Generators\Generators;
 
 class TestGenerator extends Generator {
 

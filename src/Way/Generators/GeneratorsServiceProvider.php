@@ -1,8 +1,8 @@
-<?php namespace Way\Generators;
+<?php namespace Buruframe\Generators;
 
-use Way\Generators\Commands;
-use Way\Generators\Generators;
-use Way\Generators\Cache;
+use Buruframe\Generators\Commands;
+use Buruframe\Generators\Generators;
+use Buruframe\Generators\Cache;
 use Illuminate\Support\ServiceProvider;
 
 class GeneratorsServiceProvider extends ServiceProvider {

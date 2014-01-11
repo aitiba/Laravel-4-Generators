@@ -1,6 +1,6 @@
 <?php
 
-namespace Way\Generators\Generators;
+namespace Buruframe\Generators\Generators;
 
 use Illuminate\Filesystem\Filesystem as File;
 use Illuminate\Support\Pluralizer;
@@ -20,7 +20,7 @@ class ControllerGenerator extends Generator {
     }
     protected function fillRepository($name)
     {
-        $file = base_path()."/vendor/way/generators/src/Way/Generators/Commands/../Generators/templates/repository.txt";
+        $file = base_path()."/vendor/buruframe/generators/src/Buruframe/Generators/Commands/../Generators/templates/repository.txt";
         $template = $this->file->get($file);
 
         $template = str_replace('{{nameFirst}}', $name['first'], $template);
@@ -35,7 +35,7 @@ class ControllerGenerator extends Generator {
 
     protected function fillRepositoryImplements($name)
     {
-        $file = base_path()."/vendor/way/generators/src/Way/Generators/Commands/../Generators/templates/repositoryImplements.txt";
+        $file = base_path()."/vendor/buruframe/generators/src/Buruframe/Generators/Commands/../Generators/templates/repositoryImplements.txt";
         $template = $this->file->get($file);
 
         $template = str_replace('{{nameFirst}}', $name['first'], $template);
@@ -48,7 +48,7 @@ class ControllerGenerator extends Generator {
 
     protected function fillServiceProvider($name)
     {
-        $file = base_path()."/vendor/way/generators/src/Way/Generators/Commands/../Generators/templates/serviceProvider.txt";
+        $file = base_path()."/vendor/buruframe/generators/src/Buruframe/Generators/Commands/../Generators/templates/serviceProvider.txt";
         $template = $this->file->get($file);
 
         $template = str_replace('{{nameFirst}}', $name['first'], $template);

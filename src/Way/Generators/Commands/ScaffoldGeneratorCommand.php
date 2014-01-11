@@ -1,7 +1,7 @@
-<?php namespace Way\Generators\Commands;
+<?php namespace Buruframe\Generators\Commands;
 
-use Way\Generators\Generators\ResourceGenerator;
-use Way\Generators\Cache;
+use Buruframe\Generators\Generators\ResourceGenerator;
+use Buruframe\Generators\Cache;
 use Illuminate\Console\Command;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;

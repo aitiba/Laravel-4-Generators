@@ -1,8 +1,8 @@
 <?php
 
-namespace Way\Generators\Generators;
+namespace Buruframe\Generators\Generators;
 
-use Way\Generators\Cache;
+use Buruframe\Generators\Cache;
 use Illuminate\Filesystem\Filesystem as File;
 
 class RequestedCacheNotFound extends \Exception {}
@@ -49,7 +49,7 @@ abstract class Generator {
     public function make($path, $template)
     {
         // $path = /var/www/bintra/app/controllers/BooksController.php
-        // $template = /var/www/bintra/vendor/way/generators/src/Way/Generators/Commands/../Generators/templates/controller.txt
+        // $template = /var/www/bintra/vendor/buruframe/generators/src/Buruframe/Generators/Commands/../Generators/templates/controller.txt
         // BooksController, le quita el .php
         $this->name = basename($path, '.php');
         //mete en el variable local path el path que viene
